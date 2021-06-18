@@ -2,13 +2,21 @@ let nameP = prompt("Как тебя зовут, мой друг?");
 alert("Привет, " + nameP);
 
 const words = [
-  "пидораска",
+  "утюг",
+  "мольберт",
   "макака",
   "выдра",
+  "космос",
+  "доллар",
+  "календарь",
+  "капитан",
+  "дерево",
+  "космос",
+  "телевизор",
   "оладушек",
   "шашлык",
   "виселица",
-  "света",
+  "звезда",
   "мерседес"
   ];
   let word = words[Math.floor(Math.random() * words.length)];
@@ -29,7 +37,7 @@ while (remainingLetters > 0 && guesses > 0) {
   break;
 
   } else if (guess.length !== 1) {
-  alert("Пожалуйста, введите одну букву.");
+  alert("Пожалуйста, введите одну букву на русском языке.");
   } else {
     guesses--;
     guess = guess.toLowerCase();
