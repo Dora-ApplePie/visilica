@@ -1,2 +1,2 @@
 # visilica
-Visilica game in JS alert
+Visilica game in JS alert https://dora-applepie.github.io/visilica/
