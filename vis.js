@@ -17,7 +17,8 @@ const words = [
   "шашлык",
   "виселица",
   "звезда",
-  "мерседес"
+  "мерседес",
+    "куб"
   ];
   let word = words[Math.floor(Math.random() * words.length)];
 
